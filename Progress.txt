@@ -1,1 +1,2 @@
 This file is shared with TA's
+* The Linestring column of the dataset was divided and arranged into array with length of 4.
