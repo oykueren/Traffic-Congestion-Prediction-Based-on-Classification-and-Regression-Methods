@@ -21,12 +21,8 @@ To use this repository for traffic congestion prediction:
 4. If you want to run code to train Random Forest Classification, you should run `rfc_classification.ipynb`.
 5. If you want to run code to test Random Forest Classification, you should run `rfc_test.ipynb`.
 6. If you want to run code to train and test SVC, you should run `svc_classification.ipynb`.
-8. If you want to run code to train Random Forest Regressor, you should run ` `.
-9. If you want to run code to test Random Forest Regressor, you should run ` `.
-10. If you want to run code to train SVR, you should run ` `.
-11. If you want to run code to test SVR, you should run ` `.
-12. If you want to run code to train RNN-LSTM, you should run ` `.
-13. If you want to run code to test RNN-LSTM, you should run ` `.
+7. If you want to run code to train and test Random Forest Regressor, you should run `rfr.ipynb`.
+8. If you want to run code to train and test RNN-LSTM, you should run `RNN.ipynb`.
 
 ## Requirements
 
