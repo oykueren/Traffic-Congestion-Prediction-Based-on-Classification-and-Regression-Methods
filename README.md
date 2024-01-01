@@ -5,11 +5,12 @@ In this project, we aim to predict traffic congestion using two distinct approac
 
 ## Repository Contents
 - `Data Preparation`: Scripts and notebooks for data cleaning, and preparation. It includes cleaned data, and labelled data.
-- `ST_DBSCAN`: Code to cluster data.
+- `st_dbscan.py`: Code to cluster data.
 - `label_data.ipynb`: The notebook to label data using ST_DBSCAN.
 - `label_data.py`: The python file used on `label_data.ipynb`.
 - `rfc_classification.ipynb`: The notebook to train Random Forest Classification method.
 - `rfc_test.ipynb`: The notebook to test Random Forest Classification method.
+- `svc_classification.ipynb`: The notebook to train and test SVC method.
 - `svc_classification.ipynb`: The notebook to train and test SVC method.
 
   
