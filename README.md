@@ -25,7 +25,13 @@ To use this repository for traffic congestion prediction:
 8. If you want to run code to train and test RNN-LSTM, you should run `RNN.ipynb`.
 
 ## Requirements
-
+numpy==1.23.5
+pandas==2.0.3
+scikit-learn==1.3.2
+tensorflow==2.15.0
+matplotlib==3.4.3
+joblib==1.3.2
+torch==2.1.0
 
 ## Contributing
 Yaşar Mehmet Çelik 150200302
