@@ -10,27 +10,19 @@ In this project, we aim to predict traffic congestion using two distinct approac
 - `label_data.py`: The python file used on `label_data.ipynb`.
 - `rfc_classification.ipynb`: The notebook to train Random Forest Classification method.
 - `rfc_test.ipynb`: The notebook to test Random Forest Classification method.
+- `svc_classification.ipynb`: The notebook to train and test SVC method.
 
-  
-
-- `Results`: Folder containing graphical representations and analysis of the model outputs.
-- `Documentation`: Detailed explanation of methodologies, algorithms, and usage instructions.
   
 ## Getting Started
 To use this repository for traffic congestion prediction:
 1. Clone the repository to your local machine.
 2. Ensure you have the required dependencies installed (listed in "requirements").
-3. If you want to run code to clean data, you should run "Data Preperation/label_data.ipynb".
-4. If you want to run code to train Random Forest Classification, you should run "rfc_classification.ipynb".
-5. If you want to run code to test Random Forest Classification, you should run "rfc_test.ipynb".
-6. If you want to run code to train SVC, you should run " "
-7. If you want to run code to test SVC, you should run""
-8. If you want to run code to train Random Forest Regressor, you should run " ".
-9. If you want to run code to test Random Forest Regressor, you should run " ".
-10. If you want to run code to train SVR, you should run " ".
-11. If you want to run code to test SVR, you should run " ".
-12. If you want to run code to train RNN-LSTM, you should run " ".
-13. If you want to run code to test RNN-LSTM, you should run " ".
+3. If you want to run code to clean data, you should run `Data Preperation/label_data.ipynb`.
+4. If you want to run code to train Random Forest Classification, you should run `rfc_classification.ipynb`.
+5. If you want to run code to test Random Forest Classification, you should run `rfc_test.ipynb`.
+6. If you want to run code to train and test SVC, you should run `svc_classification.ipynb`.
+7. If you want to run code to train and test Random Forest Regressor, you should run `rfr.ipynb`.
+8. If you want to run code to train and test RNN-LSTM, you should run `RNN.ipynb`.
 
 ## Requirements
 
