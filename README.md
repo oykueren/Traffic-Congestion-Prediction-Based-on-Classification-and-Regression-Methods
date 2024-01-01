@@ -5,11 +5,12 @@ In this project, we aim to predict traffic congestion using two distinct approac
 
 ## Repository Contents
 - `Data Preparation`: Scripts and notebooks for data cleaning, and preparation. It includes cleaned data, and labelled data.
-- `ST_DBSCAN`: Code to cluster data.
+- `st_dbscan.py`: Code to cluster data.
 - `label_data.ipynb`: The notebook to label data using ST_DBSCAN.
 - `label_data.py`: The python file used on `label_data.ipynb`.
 - `rfc_classification.ipynb`: The notebook to train Random Forest Classification method.
 - `rfc_test.ipynb`: The notebook to test Random Forest Classification method.
+- `svc_classification.ipynb`: The notebook to train and test SVC method.
 - `svc_classification.ipynb`: The notebook to train and test SVC method.
 
   
@@ -25,7 +26,13 @@ To use this repository for traffic congestion prediction:
 8. If you want to run code to train and test RNN-LSTM, you should run `RNN.ipynb`.
 
 ## Requirements
-
+numpy==1.23.5
+pandas==2.0.3
+scikit-learn==1.3.2
+tensorflow==2.15.0
+matplotlib==3.4.3
+joblib==1.3.2
+torch==2.1.0
 
 ## Contributing
 Yaşar Mehmet Çelik 150200302
