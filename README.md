@@ -19,7 +19,7 @@ In this project, we aim to predict traffic congestion using two distinct approac
 ## Getting Started
 To use this repository for traffic congestion prediction:
 1. Clone the repository to your local machine.
-2. Ensure you have the required dependencies installed (listed in `requirements`).
+2. Ensure you have the required dependencies installed (listed in "requirements").
 3. If you want to run code to clean data, you should run "Data Preperation/label_data.ipynb".
 4. If you want to run code to train Random Forest Classification, you should run "rfc_classification.ipynb".
 5. If you want to run code to test Random Forest Classification, you should run "rfc_test.ipynb".
