@@ -4,14 +4,17 @@
 In this project, we aim to predict traffic congestion using two distinct approaches: classification-based and regression-based methods. For the classification aspect, we have employed Support Vector Classification (SVC) and Random Forest Classifier to categorize traffic conditions. On the other hand, our regression-based approach utilizes Support Vector Regression (SVR), Random Forest Regression, and Recurrent Neural Network with Long Short-Term Memory (RNN-LSTM) to predict the severity and extent of traffic congestion. This comprehensive approach allows for a nuanced analysis of traffic patterns. The entire process, from data preparation to training and testing the models, is meticulously documented and accessible on our GitHub page. This repository serves as a valuable resource for those interested in the intricacies of traffic congestion prediction, providing detailed insights into the methodologies and algorithms employed in our study.
 
 ## Repository Contents
-- `Data Preparation`: Scripts and notebooks for data cleaning, and preparation. It includes cleaned data, and labelled data.
-- `st_dbscan.py`: Code to cluster data.
-- `label_data.ipynb`: The notebook to label data using ST_DBSCAN.
-- `label_data.py`: The python file used on `label_data.ipynb`.
-- `rfc_classification.ipynb`: The notebook to train Random Forest Classification method.
-- `rfc_test.ipynb`: The notebook to test Random Forest Classification method.
-- `svc_classification.ipynb`: The notebook to train and test SVC method.
-- `svc_classification.ipynb`: The notebook to train and test SVC method.
+- `Data Preparation`: Scripts and notebooks for data cleaning, labelling and preparation.
+    - `st_dbscan.py`: Code to cluster data.
+    - `coordinates.py`: Converting geographic coordinates (Longitude, Latitude) to UTM coordinates for clustering.
+    - `label_data.ipynb`: The notebook to label data using ST_DBSCAN.
+    - `label_data.py`: The python file used on `label_data.ipynb`.
+- `Classifiers`: The folder includes classifier codes.
+    - `RandomForestClassification_train.ipynb`: The notebook to train Random Forest Classification method.
+    - `RandomForestClassification_train.ipynb`: The notebook to test Random Forest Classification method.
+    - `SupportVectorClassification.ipynb`: The notebook to train and test SVC method.
+- `RandomForestRegression.ipynb`: The notebook to train and test Random Forest Regression method.
+- `RNN.ipynb`: The notebook to train and test Recurrent Neural Network with Long Short-Term Memory method.
 
   
 ## Getting Started

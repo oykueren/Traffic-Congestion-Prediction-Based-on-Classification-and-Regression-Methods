@@ -1,3 +1,17 @@
+"""
+This script processes raw taxi GPS data from CSV files by performing the following steps:
+
+1. **Data Cleaning**: Removes unnecessary strings from coordinate data, splits coordinates, and restructures rows with more than four coordinates.
+
+2. **Filtering**: Filters data based on geographic bounds and speed limits (<= 150 km/h).
+
+3. **Timestamp Processing**: Converts timestamps to datetime, rounds to the nearest minute, and selects the middle row for grouped data by Taxi ID and Timestamp.
+
+4. **Time Calculation**: Creates a "Time" column from hour and minute values.
+
+5. **Saving Processed Data**: Cleans final data and saves the processed output to CSV files.
+"""
+
 import pandas as pd
 import numpy as np
 import os
